@@ -6,15 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aloha Apparel.Co</title>
     
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-queries.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+
     
   
 </head>
@@ -23,34 +25,38 @@
 <body>
    
     <header>
-        <img class ="logo" src="images/aloha-logo.svg" alt= "Aloha Apparel CO."/>
+        <div class="logocontainer">
+            <img class="logo" src="images/aloha-logo.svg" alt="Aloha Apparel CO."/>
+        </div>
 
-        <div class = "cartcontainer">
 
-                <img class = "cart" src="images/cart-icon.svg" alt = "shopping cart"/>
-                <span class="number-cart">3</span>
+        <div class="cartcontainer">
+            <img class = "cart" src="images/cart-icon.svg" alt ="shopping cart"/>
+               <span class= "number-cart"></span>
+        </div>
+
+        
+            <nav> 
+                 <ul>
     
-            </div>
+                    <li>About</li>
+                    <li>Shop</li>
+                    <li>Featured</li>
+                    <li>Updates</li>
+                  </ul>
 
-        <nav> 
-            <ul class = "nav">
-    
-                <li>About</li>
-                <li>Shop</li>
-                <li>Featured</li>
-                <li>Updates</li>
-            </ul>
-
-        </nav>
-
+            </nav>
+       
+    </div>
        
 </header>
 
+
   
-<div class = "container">
+<div class ="container">
 
       <section class="hero"> 
-         <p> New Collection</p>
+         <p> New Collection<p>
          <h1> Spring/Summer 2016 </h1>
 
       </section>
@@ -63,8 +69,9 @@
     <section >
 
         <h1><span class ="hand-craftedinitalic">Hand-Crafted</span> <span class = "stylesinbold">Styles</span></h1>
-        <p> Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our </p>
-        <p> current selection of products or sign-up for updates below. </p>
+
+        <p> Aloha Apparel Co. sells only the finest ready-to-<br class="breakmobile">travel clothing. <br class ="tabletbreak"> Browse our<br class="deskstopbreak"> 
+         current selection of <br class="breakmobile"> products or sign-up for updates <br class ="tabletbreak"> below.<br class="deskstopbreak"></p>
 
     </section>
 
@@ -94,30 +101,11 @@
         <div class="product women">women's</div>
     </div>
 </div>
+
+
 </div>
 
 
-<!---
- <div > 
-    <section>
-        <nav> 
-
-            <ul class ="middlenav">
-                
-            <li class ="men"> Men's</li>
-            <li class ="trends"> Trends</li>
-            <li class = "glasses"> Glasses</li>
-            <li class = "sale"> Sale</li>
-            <li class = "bags">Bags </li>
-            <li class = "women"> Women's</li>
-        
-             </ul>
-         </nav>
-
-     </section>
-
-</div>
--->
 
 <div class = "products-title">
      <h1> <span class = "mostlovedinitalic">Most-Loved</span><span class="productsinbold"> Products</span></h2>
@@ -126,67 +114,91 @@
 
   
 
-<div class="most-loved">
+<div class="most-loved main-carousel">
   
-   
+    <div class="stretchknitdress carousel-cell">
+        <img src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress"/>
+           <p class=categories>Dresses</p>
+           <p class ="productname">Stretch Knit Dress</p>
+           <p class="price"> $169.00 </p>
+           <input type="button" class="addcartbutton" value="Add to Cart">
+       
+
+     </div>
+
+     <div class="cottonblueshirt carousel-cell">
+        <img src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt"/>
+           <p class=categories>Shirts</p>
+           <p class ="productname">Cotton Blue Shirt</p>
+           <p class="price"> $89.00 </p>
+           <input type="button" class="addcartbutton" value="Add to Cart">
+ 
+     </div>
+          
     
-    <div class="checkedstretchdress">
+    <div class="checkedstretchdress carousel-cell">
        <img src="images/checked-stretch-dress.jpg" alt="Checked-Stretch-Dress"/>
           <p class=categories>Dresses</p>
-          <p class ="productname">Checked-Stretch-Dress</p>
+          <p class ="productname">Checked Stretch Dress</p>
           <p class="price"> $129.00 </p>
+          <input type="button" class="addcartbutton" value="Add to Cart">
 
     </div>
         
 
 
-    <div class="bluehipsterbackpack">
+    <div class="bluehipsterbackpack carousel-cell">
          <img src="images/blue-hipster-backpack.jpg" alt="Blue-Hipster-Backpack" /> 
           <p class=categories>Bags</p>
-          <p class="productname"> Blue-Hipster-Backpack</p>
+          <p class="productname"> Blue Hipster Backpack</p>
           <p class="price">$69.00</p>
+          <input type="button" class="addcartbutton" value="Add to Cart">
     
     
      </div>
 
-    <div class ="deminoverallshorts">
+    <div class ="deminoverallshorts carousel-cell">
       <img src ="images/demin-overall-shorts.jpg" alt="Demin-Overall-Shorts"/> 
         <p class=categories>Demin</p>
-        <p class="productname">Demin-Overall-Shorts</p>
+        <p class="productname">Demin Overall Shorts</p>
         <p class="price">$89.00</p>
+        <input type="button" class="addcartbutton" value="Add to Cart">
     
     </div>
 
-    <div class ="pinkdotteddress">
+    <div class ="pinkdotteddress carousel-cell">
        <img src ="images/pink-dotted-dress.jpg" alt="Pink-dotted-dress"/>
        <p class ="categories">Dresses</p>
-       <p class ="productname">Pink-Dotted-Dress</p>
+       <p class ="productname">Pink Dotted Dress</p>
        <p class="price">$99.00</p>
+       <input type="button" class="addcartbutton" value="Add to Cart">
      </div>
    
-    
-    
 </div>
 
-<section class ="sign-up"> 
+<div class ="sign-up-container"> 
     <div class ="title">
-        <h1><span class ="signupinitalic">Sign-Up for</span> Updates </h1>
-        <div class="infosignup">
-         <p> Stay updated on our latest product releases, be first to find out about
-          upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-         
-          <div class="submitform">
-                <form action="submit.php" method="post">
-                <button type="submit">Subscribe</button>  
-                <input type="text" placeholder="Your email" size="40" maxlength="12"  /> 
-          
-          
-             
-                 </form>
-            </div>
-        </div> 
+        <h1><span class ="signupinitalic">Sign-Up for</span> <span class="updatesinbold">Updates</span> </h1>
     </div>
-</section>
+    
+    <div class="infosignup">
+        <p> Stay updated on our latest product releases, be first<br class="breakmobile"> to find out<br class ="tabletbreak"> about<br class="deskstopbreak">
+            upcoming sales, and get free style<br class="breakmobile"> tips from our blog.<br class ="tabletbreak">Unsubscribe at any time.</p>
+    </div> 
+         
+    <div class="submitform" >
+        <form>
+                <!-- <input type="text" name= "email" placeholder="Your email" size="40"   /> --> 
+   
+               <input type="text" id="emailaddress" name="email"  placeholder="Your email" size="40"   /> 
+               <input type="button" class="subscribebutton" value="Subscribe" /> 
+ 
+             
+        </form>
+    </div>
+       
+    
+</div>
 
   
 
@@ -195,10 +207,10 @@
 <footer>
     <section class="aloha-information"> 
 
-        <p> ©2016 Aloha Apparel Co.</p>
+        <p> © 2016 Aloha Apparel Co.</p>
         <p> Powered by HTML and CSS.</p>
 
-        <p class="contactandemail"> 604-604-6040. info@alohaapparel.com </p>
+        <p class="contactandemail"> 604-604-6040. <span class="email">info@alohaapparel.com</span></p>
 
         <p class="address"> 1490 W Broadway </p>
         <p class="address">Vancouver, BC, Canada</p>
@@ -209,17 +221,24 @@
 
     <section class="social">
 
+
+    
     <ul>
          
-        <li><i class="fab fa-facebook-f"></i>    Facebook</li>
-        <li> <i class="fab fa-twitter"></i>      Twitter</li>
-        <li><i class="fab fa-instagram"></i>     Instagram</li>
-        <li><i class="fab fa-pinterest"></i>     Pinterest</li>
-        <li><i class="fab fa-google-plus-g"></i> Google+</li>
+        <li><i class="fab fa-facebook-f"></i><span class ="socialname">Facebook</span></li>
+        <li> <i class="fab fa-twitter"></i><span class ="socialname">Twitter</span></li>
+        <li><i class="fab fa-instagram"></i><span class="socialname">Instagram</span> </li>
+        <li><i class="fab fa-pinterest"></i><span class="socialname">Pinterest</span> </li>
+        <li><i class="fab fa-google-plus-g"></i><span class= "socialname">Google+</span></li>
     </ul>
+
+ 
 
     </section>
 </footer>
 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="js/aloha.js"></script>
 </body>
 </html>

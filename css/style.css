@@ -1,0 +1,441 @@
+
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+  header { 
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 110px;
+ }
+  
+.logocontainer { 
+    display: flex;
+    margin-left: 15px; 
+    flex: 0 1 30%;
+    height: 70px;
+    align-items: center;
+    justify-content: left;
+    align-self: center;
+
+}
+
+.logo {
+    height: 50px; 
+}
+
+
+nav {
+    display: flex;
+    text-align: center;
+    order: 3;
+    justify-content: center;
+    width: 100%;
+}
+
+    nav ul { 
+
+        border-top: 1px solid #d7d7d7;
+        width: 96%;
+    }
+nav li {
+    display: inline-block;
+    padding: 10px;
+    color:#e2574c;
+    flex-basis: 20%;
+    text-transform: uppercase;
+}
+
+nav li:hover {
+
+    color: #b64036;
+}
+.cartcontainer  { 
+    width:50px;
+    flex-basis: 14%;
+    display: flex;
+    justify-content: left;
+    height: 73px; 
+}
+      
+.cart { 
+    width: 50px; 
+}
+
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg); /* on the bottom */
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: center, center 63px , center;
+    background-size: cover, 159px, cover;
+    height:424px;
+}
+
+.hero h1 { 
+    text-align: center;
+    font-size: 2.5rem; 
+    color: white;
+     position: absolute;
+    left: 17%;
+    top: 46%;
+     width: 271px;
+}
+
+.hero p { 
+    text-align: center;
+    font-size:  1.5rem;
+    line-height: 2;
+    color: white;
+    text-transform: capitalize;
+    position: absolute;
+    left: 50%;
+    width: 195px;   
+    margin-left: -107px;
+    top: 38% ;
+}
+
+.tabletbreak { 
+    display: none
+}
+.deskstopbreak { 
+    display: none;
+}
+
+.breakmobile { 
+    display: inline-block;
+}
+      
+
+.number-cart { 
+    display: none;
+}
+
+    
+.hand-craftstyles { 
+    padding:20px; 
+}
+
+.hand-craftedinitalic { 
+    font-style: italic;
+}
+
+.stylesinbold { 
+     font-weight: bold;
+}
+
+
+.hand-craftstyles h1 { 
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hand-craftstyles p { 
+    text-align: center;
+    line-height: 2;
+    padding-bottom:20px;
+} 
+
+.products-container {
+    position: relative;
+    width: 100%;
+}
+
+
+.products-container:before {
+    content:"";
+    display: block;
+    padding-top: 200%;
+}
+
+
+.product-categories { 
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+
+
+}
+
+.categories-row { 
+    display: flex;
+    flex-direction: row;
+    flex: 1 0;
+}
+
+
+.categories-row-or-col { 
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+}
+
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+
+   
+    flex: 1 0;
+
+    
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.row-spacer { 
+   margin: 5px;
+}
+
+.column-spacer { 
+    margin: 5px;
+}
+
+.rotate-spacer {
+    margin: 5px;
+}
+
+.mens {
+    background-image:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/mens-category.jpg);
+}
+
+.trends { 
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(../images/trends-category.jpg);
+}
+
+.glasses { 
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(../images/glasses-category.jpg);
+}
+
+.sale { 
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/sale-category.jpg);
+}
+    
+.bags { 
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/bags-category.jpg);    
+}
+
+.women { 
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/womens-category.jpg);
+
+}
+
+           
+.products-title { 
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 2rem;
+
+} 
+           
+.mostlovedinitalic { 
+    font-style: italic;
+}
+          
+.productsinbold { 
+    font-weight: bold;
+ }
+
+.most-loved { 
+    height: 450px;
+    text-align: center;
+    line-height: 2;
+    padding-bottom: 50px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.carousel-cell {
+    width: 100%;
+}
+.productname { 
+    color:#e2574c;
+    font-size: 22px;
+}
+
+
+.productname:hover {
+
+    color: #b64036;
+
+}
+
+ .categories {
+    text-transform: uppercase;
+     font-size: 12px;
+    color:#969696
+}      
+
+.price { 
+    font-size: 12px;
+    color:#969696
+}
+
+.addcartbutton { 
+    display: none;
+    background-color: red;
+    Top: 16px;
+    Right: 3% ;
+    width: 18px;
+    border-radius: 40px;
+    height: 17px;
+    position: absolute;
+   
+}
+
+
+
+.flickity-page-dots {
+    top: 93%;
+}
+
+
+
+
+.sign-up-container {  
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/wave-bkgd.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom; 
+    color:white;
+    padding-top:55px;
+}
+
+.signupinitalic { 
+    font-style: italic;
+}
+
+.updatesinbold { 
+
+    font-weight: bold;
+
+}
+.title h1 { 
+    text-align: center; 
+    font-size: 2rem; 
+}
+
+.infosignup {
+    padding-top: 29px; 
+}
+.infosignup p { 
+    text-align: center; 
+    line-height: 2;
+    padding-bottom: 10px;
+}
+ 
+
+
+.submitform {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 61px;
+    padding-right:176px;
+}
+
+input { 
+    border: none;
+    padding: 10px;
+    border-radius: 35px;
+    position: absolute;
+  
+}
+
+    
+.subscribebutton { 
+    color:white;
+    border-radius:25px;
+    background:#e2574c;
+    position: relative;
+
+    height: 30px;
+    top: 1px;
+    bottom: 2px;
+    /* padding: 10px 10px; */
+    z-index: 2;
+    left: 190px;
+
+
+    /* padding: 8px 10px;
+    z-index: 2;
+    left:190px; */
+}
+
+footer { 
+    
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    padding-right: 30px;
+    padding-left:30px;
+    margin-top: 8px;
+    color: white;
+    background-color:#242424;
+    line-height: 2;
+}
+
+.aloha-information { 
+
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+    color:white;
+    font-weight: bold;
+}
+
+   
+p.contactandemail { 
+    line-height: 4; 
+}
+
+.email {
+    text-decoration: underline;
+}
+
+p.address {
+    color: #969696;
+}
+
+.social ul { 
+
+    display: flex;
+    justify-content: center;
+}
+   
+.social li { 
+    
+    list-style: none;
+     display: inline-block;
+     letter-spacing: 20px;
+     
+     
+}
+
+.socialname { 
+
+    display:none;
+
+}
