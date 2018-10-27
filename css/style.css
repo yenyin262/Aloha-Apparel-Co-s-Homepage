@@ -11,6 +11,9 @@ body {
   flex-wrap: wrap;
   overflow: hidden;
   height: 110px;
+  /* background-color: white;
+  z-index: 1;
+  position:fixed;  */
  }
   
 .logocontainer { 
@@ -50,10 +53,18 @@ nav li {
     text-transform: uppercase;
 }
 
-nav li:hover {
+nav a { 
+
+    text-decoration: none;
+    color:#e2574c;
+}
+
+nav a:hover {
 
     color: #b64036;
 }
+
+
 .cartcontainer  { 
     width:50px;
     flex-basis: 14%;
@@ -81,21 +92,25 @@ nav li:hover {
     color: white;
      position: absolute;
     left: 17%;
-    top: 46%;
+    top: 49%;
      width: 271px;
+     font-weight: 500;
 }
 
 .hero p { 
     text-align: center;
-    font-size:  1.5rem;
+    font-size: 17px;
     line-height: 2;
     color: white;
-    text-transform: capitalize;
+    text-transform: uppercase;
     position: absolute;
-    left: 50%;
-    width: 195px;   
+    left: 56%;
+    width: 165px;
     margin-left: -107px;
-    top: 38% ;
+    top: 43%;
+    font-weight: 500;
+
+
 }
 
 .tabletbreak { 
@@ -187,7 +202,9 @@ nav li:hover {
     align-items: center;
     text-transform: uppercase;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight:450;
+    
 
    
     flex: 1 0;
@@ -260,13 +277,16 @@ nav li:hover {
     text-align: center;
     line-height: 2;
     padding-bottom: 50px;
-    overflow: hidden;
+        margin-bottom: 25px;
+    /* overflow: hidden; */
     width: 100%;
 }
 
 
+
 .carousel-cell {
     width: 100%;
+    /* height: 470px; */
 }
 .productname { 
     color:#e2574c;
@@ -282,24 +302,25 @@ nav li:hover {
 
  .categories {
     text-transform: uppercase;
-     font-size: 12px;
+     font-size: 10px;
+     font-weight: bold;
     color:#969696
 }      
 
 .price { 
-    font-size: 12px;
+    font-weight: bold;
+    font-size: 11px;
     color:#969696
 }
 
 .addcartbutton { 
     display: none;
-    background-color: red;
-    Top: 16px;
-    Right: 3% ;
-    width: 18px;
-    border-radius: 40px;
-    height: 17px;
-    position: absolute;
+    color: white;
+    background: black;
+    position: relative;
+    height: 39px;
+    width: 132px;
+    font-size: 16px;
    
 }
 
@@ -371,18 +392,14 @@ input {
     border-radius:25px;
     background:#e2574c;
     position: relative;
-
-    height: 30px;
-    top: 1px;
-    bottom: 2px;
-    /* padding: 10px 10px; */
-    z-index: 2;
-    left: 190px;
+    height: 27px;
+    top: 3px;
+     z-index: 2;
+    left: 188px;
+    padding-top: 4.5px;
 
 
-    /* padding: 8px 10px;
-    z-index: 2;
-    left:190px; */
+    
 }
 
 footer { 
@@ -407,7 +424,7 @@ footer {
 }
 
    
-p.contactandemail { 
+h6.contactandemail { 
     line-height: 4; 
 }
 
@@ -415,7 +432,7 @@ p.contactandemail {
     text-decoration: underline;
 }
 
-p.address {
+h6.address {
     color: #969696;
 }
 
