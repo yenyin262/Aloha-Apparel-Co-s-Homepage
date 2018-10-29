@@ -273,13 +273,11 @@ nav a:hover {
     line-height: 2;
     padding-bottom: 50px;
     margin-bottom: 25px;
-    /* overflow: hidden; */
     width: 100%;
 }
 
 .carousel-cell {
     width: 100%;
-    
 }
 
 .productname { 
@@ -308,7 +306,6 @@ nav a:hover {
     height: 39px;
     width: 132px;
     font-size: 16px;
-   
 }
 
 .flickity-page-dots {
@@ -331,7 +328,6 @@ nav a:hover {
 }
 
 .updatesinbold { 
-
     font-weight: bold;
 
 }

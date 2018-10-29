@@ -72,9 +72,6 @@ nav li {
     display: inline-block;
 }
    
-
-   
-
    
 
 .products-container:before {
@@ -181,7 +178,6 @@ letter-spacing: normal;
 @media screen and (min-width: 1200px) {
 
 header { 
-    /* display: flex; */
     flex-wrap: nowrap;
 }
         
@@ -203,7 +199,6 @@ header {
 }
        
 nav {
-    /* text-align: center; */
     width: 60%;
     border: none;
     order: 2;
@@ -244,9 +239,9 @@ nav ul {
 
 .hand-craftstyles p { 
     position: absolute;
-    top:  49% ; /*47%;*/
-    left: 50%;
-    width: 600px;
+    top:49%; 
+    left:50%;
+    width:600px;
     margin-left: -300px;
 } 
 
@@ -289,12 +284,7 @@ background-position: center, center 62px, center;
     height: auto;
 }
     
-/*    
-.products-container:before {
-    content:"";
-    display: block;
-    padding-top: 50%;
-} */
+
     
 .product-categories { 
     display:flex;
@@ -306,18 +296,7 @@ background-position: center, center 62px, center;
     right:0;
 }
     
-/* .categories-row { 
-    display: flex;
-    flex-direction: row;
-    flex: 1 0;
-} */
-    
-/* .categories-row-or-col { 
-    display: flex;
-    flex-direction: row;
-    flex: 1 0;
-} */
-    
+
 .product {
     font-size: 35px;
 }
@@ -326,7 +305,7 @@ background-position: center, center 62px, center;
     padding-top: 12px;
 }
 .row-spacer { 
-        margin: 3px;
+    margin: 3px;
 }
     
 .column-spacer { 
@@ -396,7 +375,6 @@ background-position: center, center 62px, center;
     left: 480px;
 }
    
-
 
 .aloha-information { 
     line-height: 1.5;
