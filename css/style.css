@@ -2,19 +2,19 @@
 body {
     margin: 0;
     padding: 0;
-   
 }
-  header { 
-  display: flex;
-  justify-content: space-between;
-  flex-basis: 100%;
-  flex-wrap: wrap;
-  overflow: hidden;
-  height: 110px;
-  background-color: white;
-  z-index: 1;
-  position:fixed; 
-  top: 0;
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 110px;
+    background-color: white;
+    z-index: 1;
+    position:fixed; 
+    top: 0;
  }
   
 .logocontainer { 
@@ -25,7 +25,6 @@ body {
     align-items: center;
     justify-content: left;
     align-self: center;
-
 }
 
 .logo {
@@ -41,12 +40,12 @@ nav {
     width: 100%;
 }
 
-    nav ul { 
+nav ul { 
+    border-top: 1px solid #d7d7d7;
+    width: 96%;
+    font-weight: 400;
+}
 
-        border-top: 1px solid #d7d7d7;
-        width: 96%;
-        font-weight: 400;
-    }
 nav li {
     display: inline-block;
     padding: 10px;
@@ -56,7 +55,6 @@ nav li {
 }
 
 nav a { 
-
     text-decoration: none;
     color:#e2574c;
 }
@@ -66,14 +64,12 @@ nav a:hover {
     color: #b64036;
 }
 
-
 .cartcontainer  { 
     width:50px;
     flex-basis: 14%;
     display: flex;
     justify-content: left;
     height: 73px; 
-   
 }
       
 .cart { 
@@ -92,16 +88,7 @@ nav a:hover {
     height:424px;
 }
 
-.hero h1 { 
-    text-align: center;
-    font-size: 2.5rem; 
-    color: white;
-     position: absolute;
-    left: 17%;
-    top: 49%;
-     width: 271px;
-     font-weight: 500;
-}
+
 
 .hero p { 
     text-align: center;
@@ -115,9 +102,24 @@ nav a:hover {
     margin-left: -107px;
     top: 42%;
     font-weight: 500;
-
-
 }
+
+.hero h1 { 
+    text-align: center;
+    font-size: 2.5rem; 
+    color: white;
+    position: absolute;
+    left: 17%;
+    top: 49%;
+    width: 271px;
+    font-weight: 500;
+}
+
+
+.breakmobile { 
+    display: inline-block;
+}
+
 
 .tabletbreak { 
     display: none
@@ -126,10 +128,6 @@ nav a:hover {
     display: none;
 }
 
-.breakmobile { 
-    display: inline-block;
-}
-      
 
 .number-cart { 
     display: none;
@@ -183,8 +181,6 @@ nav a:hover {
     top:0;
     bottom:0;
     right:0;
-
-
 }
 
 .categories-row { 
@@ -211,19 +207,12 @@ nav a:hover {
     font-size: 22px;
     font-weight:450;
     
-
-   
     flex: 1 0;
-
-    
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-
 }
-
 
 
 .row-spacer { 
@@ -269,7 +258,6 @@ nav a:hover {
     padding-top: 70px;
     padding-bottom: 70px;
     font-size: 2rem;
-
 } 
            
 .mostlovedinitalic { 
@@ -285,29 +273,25 @@ nav a:hover {
     text-align: center;
     line-height: 2;
     padding-bottom: 50px;
-        margin-bottom: 25px;
+    margin-bottom: 25px;
     /* overflow: hidden; */
     width: 100%;
 }
 
-
-
 .carousel-cell {
     width: 100%;
-    /* height: 470px; */
+    
 }
+
 .productname { 
     color:#e2574c;
     font-size: 22px;
 }
 
-
-
-
  .categories {
     text-transform: uppercase;
-     font-size: 10px;
-     font-weight: bold;
+    font-size: 10px;
+    font-weight: bold;
     color:#969696
 }      
 
@@ -328,13 +312,9 @@ nav a:hover {
    
 }
 
-
-
 .flickity-page-dots {
     top: 93%;
 }
-
-
 
 
 .sign-up-container {  
@@ -364,6 +344,7 @@ nav a:hover {
 .infosignup {
     padding-top: 29px; 
 }
+
 .infosignup p { 
     text-align: center; 
     line-height: 2;
@@ -389,14 +370,11 @@ input {
     position: absolute;
     font-family: 'Raleway';
     font-weight: lighter;
-
-
 } 
 
 .placeholderposition { 
     left: 74px;
 }
-
 
 
     
@@ -407,7 +385,7 @@ input {
     position: relative;
     height: 27px;
     top: 3px;
-     z-index: 2;
+    z-index: 2;
     left: 210px;
     padding-top: 6.5px;
 
@@ -416,7 +394,6 @@ input {
 }
 
 footer { 
-    
     padding-top: 50px;
     padding-bottom: 50px; 
     padding-right: 30px;
@@ -428,7 +405,6 @@ footer {
 }
 
 .aloha-information { 
-
     line-height: 1.5;
     text-align: center;
     margin-bottom: 20px;
@@ -450,19 +426,15 @@ h6.address {
 }
 
 .social ul { 
-
     display: flex;
     justify-content: center;
     margin-left: 37px;
 
 }
 .social li { 
-    
     list-style: none;
-     display: inline-block;
-     letter-spacing: 20px;
-     
-     
+    display: inline-block;
+    letter-spacing: 20px;
 }
 
 .socialname { 

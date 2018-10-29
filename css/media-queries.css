@@ -3,39 +3,30 @@
 
 body p { 
     font-size: 16px; 
-
 } 
+
 header { 
-    display: flex;
     flex-wrap: nowrap;
-    flex-basis: 100%;
     height:96px;
     width: 100%;
-    
 }
             
      
 body {
     font-size: 16px; 
     color: #2d2d2d;
-        
 } 
     
     
 .logocontainer { 
     justify-content: center;
-    align-self: center;
 }
     
-.logo {
-    height: 50px; 
-}
-       
+
 nav {
     order: 2;
     align-self:  center;
     margin-left: -53px;
-    
 }
 
 nav ul { 
@@ -49,12 +40,42 @@ nav li {
 .cartcontainer{
     order: 3;
     height:86px;
-  
 }
 
 .container { 
  margin-top:96px;
 }
+
+
+.hero { 
+    background-size: cover, 148px, cover;
+    height:400px;
+}
+   
+
+.hero p {
+    top: 40%;
+    left: 53%;
+}
+
+.hero h1 {
+    top:48%;
+    width: 378px;
+}
+
+.breakmobile  { 
+    display: none;
+}
+
+
+.tabletbreak {
+    display: inline-block;
+}
+   
+
+   
+
+   
 
 .products-container:before {
     content:"";
@@ -62,21 +83,7 @@ nav li {
     padding-top: 50%;
 }
     
-.product-categories { 
-    display:flex;
-    flex-direction: column;
-    position: absolute;
-    left:0;
-    top:0;
-    bottom:0;
-    right:0;
-}
-    
-.categories-row { 
-    display: flex;
-    flex-direction: row;
-    flex: 1 0;
-}
+
     
 .categories-row-or-col { 
     display: flex;
@@ -84,76 +91,12 @@ nav li {
     flex: 1 0;
 }
 
-.carousel-cell { 
-    width: 50%;
-}
+
     
 .product {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: white;
-    font-weight:450;
     font-size: 28px;
-    
-    flex: 1 0;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.row-spacer { 
-    margin: 5px;
-}
-    
-.column-spacer { 
-    margin: 5px;
-}
-    
-.rotate-spacer {
-    margin: 5px;
-}
-    
-.tabletbreak {
-    display: inline-block;
-}
-   
-.deskstopbreak { 
-   display: none;
-}
-   
-.breakmobile  { 
-    display: none;
-}
-   
-.hero { 
-
-    height:400px;
-    background-size: cover, 148px, cover;
-}
-   
-.hero h1 {
-    /* top: 46%; */
-    top:48%;
-    width: 378px;
-}
-/* 
-.hero p { 
-    top: 39%;
-
-   
-}  */
-.hero p {
-    top: 40%;
-    left: 53%;
-}
-
-.categories { 
-    margin-top: -18px;
-}
 
 .products-title { 
     padding-top: 53px;
@@ -162,8 +105,9 @@ nav li {
 } 
         
 
-.most-loved { 
-    margin-bottom:25px;
+
+.carousel-cell { 
+    width: 50%;
 }
         
 .productname { 
@@ -175,21 +119,20 @@ nav li {
 }
 
 
+.categories { 
+    margin-top: -18px;
+}
+
 .price {    
-     margin-top: 18px;
+    margin-top: 18px;
 }
 
 
-.addcartbutton { 
-    display: none;
-}
- 
 .sign-up-container {  
     padding-top: 40px;
 }
     
 .title h1 { 
-    text-align: center; 
     font-size: 2.5rem; 
     padding-bottom: 31px;
 }
@@ -203,15 +146,8 @@ nav li {
 }
         
 .submitform {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
     padding-bottom: 94px;
-    padding-right: 176px;
-        
- }
+}
         
  .placeholderposition { 
     left: 160px;
@@ -221,36 +157,16 @@ nav li {
 footer { 
     display: flex;
     justify-content:space-between;
-    padding-top: 50px;
-    padding-bottom: 50px; 
-    padding-right: 30px;
-    padding-left:30px;
     margin-top: 7px;
-    color: white;
-    background-color:#242424;
-    line-height: 2;
 }
 
-.aloha-information { 
-
-    line-height: 1.5;
-}
-   
-h6.contactandemail { 
-    line-height: 4; 
-}
-
-h6.address {
-    color: #969696;
-}
 .social ul { 
     display: inline-block;
     text-align: center;
-
 }
+
 .social li { 
     text-align: right;
-    list-style: none;
     display: flex;
     align-items: center;
 }
@@ -265,7 +181,7 @@ letter-spacing: normal;
 @media screen and (min-width: 1200px) {
 
 header { 
-    display: flex;
+    /* display: flex; */
     flex-wrap: nowrap;
 }
         
@@ -287,15 +203,14 @@ header {
 }
        
 nav {
-    text-align: center;
+    /* text-align: center; */
     width: 60%;
     border: none;
-   order: 2;
+    order: 2;
 }
 
 nav li { 
- padding: 20px;
-
+    padding: 20px;
 }
 
 nav ul { 
@@ -362,7 +277,6 @@ background-position: center, center 62px, center;
 }
     
 .hero p { 
-       
     top: 49%;
     width: 175px;
     left: 52%;
@@ -370,23 +284,17 @@ background-position: center, center 62px, center;
 }
 
 .products-container {
-        position: relative;
-        width: 100%;
-        height: auto;
-    }
+    position: relative;
+    width: 100%;
+    height: auto;
+}
     
-    /*aspect ratio: width = w height = 50% of W.  pseudo-element is the trick
-    being the emplty block BEFORE the container of the.productcatergories element. in order to portray
-    the same size of the .productcatergories. positioned the product-categories
-    to absolute so that it won't move . now product catogries takes up the whole space with
-    measurements = 0
-    
-    */
+/*    
 .products-container:before {
     content:"";
     display: block;
     padding-top: 50%;
-}
+} */
     
 .product-categories { 
     display:flex;
@@ -398,32 +306,20 @@ background-position: center, center 62px, center;
     right:0;
 }
     
-.categories-row { 
+/* .categories-row { 
     display: flex;
     flex-direction: row;
     flex: 1 0;
-}
+} */
     
-.categories-row-or-col { 
+/* .categories-row-or-col { 
     display: flex;
     flex-direction: row;
     flex: 1 0;
-}
+} */
     
 .product {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: white;
     font-size: 35px;
-    font-weight:450;
-    
-    flex: 1 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .categories {
@@ -457,7 +353,7 @@ background-position: center, center 62px, center;
 }
 
 .products-title { 
- margin-bottom: 100px;
+     margin-bottom: 100px;
  }
 
 .productname { 
@@ -492,30 +388,15 @@ background-position: center, center 62px, center;
 }
     
 .submitform {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding-bottom:57px;
-    padding-right: 176px;
+    
 }
 
 .placeholderposition { 
     left: 480px;
 }
    
-footer { 
-    display: flex;
-    justify-content:space-between;
-    padding-top: 50px;
-    padding-bottom: 50px; 
-    padding-right: 30px;
-    padding-left:30px;
-    margin-top: 7px;
-    color: white;
-    background-color:#242424;
-    line-height: 2;
-}
+
 
 .aloha-information { 
     line-height: 1.5;
@@ -529,23 +410,11 @@ h6.address {
     color: #969696;
 }
 
-.social ul { 
-    display: inline-block;
-    text-align: center;
-
-}
 
 .social li { 
-    text-align: right;
     list-style: none;
-    display: flex;
-    align-items: center;
 }
   
-.socialname { 
-display: inline-block;
-letter-spacing: normal;
-}
 
 
 }
