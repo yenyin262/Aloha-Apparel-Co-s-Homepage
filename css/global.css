@@ -1,28 +1,19 @@
 
 
-h1, h2, h3, h4, h5, h6 
-
-{ 
+h1, h2, h3, h4, h5, h6 { 
     font-family: 'Playfair Display';
     font-weight: normal;
-
 }
 
 
-
-
-body{
-    
+body {
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #2d2d2d;
-    
-    }
+}
 
 body p {
         font-family: 'Raleway', Arial, sans-serif;
         font-size: 14px;
-       
-        
-    } 
+} 

@@ -98,7 +98,7 @@ nav li {
 .products-title { 
     padding-top: 53px;
     padding-bottom:0px;
-    margin-bottom: 36px;
+    margin-bottom: 100px;
 } 
         
 
@@ -139,7 +139,7 @@ nav li {
 }
 
 .infosignup p { 
-    padding-bottom: 10px; 
+    padding-bottom: 21px; 
 }
         
 .submitform {
@@ -155,6 +155,10 @@ footer {
     display: flex;
     justify-content:space-between;
     margin-top: 7px;
+}
+
+.aloha-information { 
+    text-align:left;
 }
 
 .social ul { 
@@ -234,6 +238,7 @@ nav ul {
 .hand-craftstyles {
     height: 250px;
     position: relative;
+    padding-bottom: 0px;
 }
 
 
@@ -259,9 +264,9 @@ nav ul {
 
 
 .hero {  
-height: 531px;
-background-size: cover, 242px, contain;
-background-position: center, center 62px, center;
+    height: 531px;
+    background-size: cover, 242px, contain;
+    background-position: center, center 62px, center;
 }
 
 .hero h1 { 
@@ -331,9 +336,7 @@ background-position: center, center 62px, center;
     margin-top: 15px;
 }
 
-.products-title { 
-     margin-bottom: 100px;
- }
+
 
 .productname { 
     width: 250px;
@@ -347,7 +350,7 @@ background-position: center, center 62px, center;
 
 .addcartbutton { 
     display: inline;
-    margin-top: 30px;
+    margin-top: 21px;
 }
 
 
@@ -372,9 +375,13 @@ background-position: center, center 62px, center;
 }
 
 .placeholderposition { 
-    left: 480px;
+    left: 421px;
+    width: 30%;
 }
    
+.subscribebutton { 
+    left: 243px;
+}
 
 .aloha-information { 
     line-height: 1.5;
