@@ -11,9 +11,10 @@ body {
   flex-wrap: wrap;
   overflow: hidden;
   height: 110px;
-  /* background-color: white;
+  background-color: white;
   z-index: 1;
-  position:fixed;  */
+  position:fixed; 
+  top: 0;
  }
   
 .logocontainer { 
@@ -44,6 +45,7 @@ nav {
 
         border-top: 1px solid #d7d7d7;
         width: 96%;
+        font-weight: 400;
     }
 nav li {
     display: inline-block;
@@ -71,12 +73,16 @@ nav a:hover {
     display: flex;
     justify-content: left;
     height: 73px; 
+   
 }
       
 .cart { 
     width: 50px; 
 }
 
+.container { 
+    margin-top:110px;
+}
 
 .hero {
     background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url(../images/banner-girl.png), url(../images/flower-bkgd.jpg); /* on the bottom */
@@ -107,7 +113,7 @@ nav a:hover {
     left: 56%;
     width: 165px;
     margin-left: -107px;
-    top: 43%;
+    top: 42%;
     font-weight: 500;
 
 
@@ -202,7 +208,7 @@ nav a:hover {
     align-items: center;
     text-transform: uppercase;
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     font-weight:450;
     
 
@@ -217,6 +223,8 @@ nav a:hover {
 
 
 }
+
+
 
 .row-spacer { 
    margin: 5px;
@@ -294,11 +302,7 @@ nav a:hover {
 }
 
 
-.productname:hover {
 
-    color: #b64036;
-
-}
 
  .categories {
     text-transform: uppercase;
@@ -363,7 +367,7 @@ nav a:hover {
 .infosignup p { 
     text-align: center; 
     line-height: 2;
-    padding-bottom: 10px;
+    padding-bottom: 23px;
 }
  
 
@@ -383,8 +387,17 @@ input {
     padding: 10px;
     border-radius: 35px;
     position: absolute;
-  
+    font-family: 'Raleway';
+    font-weight: lighter;
+
+
+} 
+
+.placeholderposition { 
+    left: 74px;
 }
+
+
 
     
 .subscribebutton { 
@@ -395,8 +408,8 @@ input {
     height: 27px;
     top: 3px;
      z-index: 2;
-    left: 188px;
-    padding-top: 4.5px;
+    left: 210px;
+    padding-top: 6.5px;
 
 
     
@@ -440,8 +453,9 @@ h6.address {
 
     display: flex;
     justify-content: center;
+    margin-left: 37px;
+
 }
-   
 .social li { 
     
     list-style: none;
