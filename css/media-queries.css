@@ -54,14 +54,17 @@ nav li {
    
 
 .hero p {
-    top: 40%;
+    top: 37%;
     left: 53%;
 }
 
 .hero h1 {
-    top:48%;
-    width: 378px;
+    top: 49%;
+    width: 426px;
+    left: 13%;
+    font-size: 2.8rem;
 }
+
 
 .breakmobile  { 
     display: none;
@@ -269,18 +272,19 @@ nav ul {
     background-position: center, center 62px, center;
 }
 
-.hero h1 { 
-    top: 58%;
-    width: 834px;
-    left: 17%;
-    font-size: 65px;
-}
-    
 .hero p { 
-    top: 49%;
+    top: 39%;
     width: 175px;
     left: 52%;
     font-size: 19px;
+}
+
+
+.hero h1 {
+    top: 48%;
+    width: 834px;
+    left: 16%;
+    font-size: 3.7rem;
 }
 
 .products-container {
