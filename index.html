@@ -39,10 +39,10 @@
             <nav> 
                  <ul>
     
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#shop">Shop</a></li>
-                    <li><a href="#featured">Featured</a></li>
-                    <li><a href="#updates">Updates</a></li>
+                    <li><a href="#about" aria-label="navigation item about" >About</a></li>
+                    <li><a href="#shop" aria-label="navigation item shop">Shop</a></li>
+                    <li><a href="#featured" aria-label="navigation item featured">Featured</a></li>
+                    <li><a href="#updates" aria-label="navigation item updates">Updates</a></li>
                   </ul>
 
             </nav>
@@ -68,7 +68,7 @@
    
     <section >
 
-        <h1><span class ="hand-craftedinitalic">Hand-Crafted</span> <span class = "stylesinbold">Styles</span></h1>
+        <h1 aria-label="header hand crafted styles"><span class ="hand-craftedinitalic">Hand-Crafted</span> <span class = "stylesinbold">Styles</span></h1>
 
         <p> Aloha Apparel Co. sells only the finest ready-to-<br class="breakmobile">travel clothing. <br class ="tabletbreak"> Browse our<br class="deskstopbreak"> 
          current selection of <br class="breakmobile"> products or sign-up for updates <br class ="tabletbreak"> below.<br class="deskstopbreak"></p>
@@ -188,6 +188,7 @@
          
     <div class="submitform" >
         <form>
+            <label for="emailaddress" style="display:none">enter your email</label>
                 <input type="text" class="placeholderposition" id="emailaddress" name="email"  placeholder="Your Email" size="55"/> 
                 <input type="button" class="subscribebutton" value="Subscribe"/>   
         </form>
@@ -203,13 +204,13 @@
 <footer>
     <section class="aloha-information"> 
 
-        <h6>© 2016 Aloha Apparel Co.</h6> 
-        <h6>Powered by HTML and CSS.</h6>
+        <p>© 2016 Aloha Apparel Co.</p> 
+        <p>Powered by HTML and CSS.</p>
 
-        <h6 class="contactandemail"> 604-604-6040. <span class="email">info@alohaapparel.com</span></h5>
+        <p class="contactandemail"> 604-604-6040. <span class="email">info@alohaapparel.com</span></p>
 
-        <h6 class="address"> 1490 W Broadway </h6> 
-        <h6 class="address">Vancouver, BC, Canada</h6>
+        <p class="address"> 1490 W Broadway </p> 
+        <p class="address">Vancouver, BC, Canada</p>
 
 
     </section>
@@ -228,6 +229,7 @@
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="js/totally.js"></script>
 <script src="js/aloha.js"></script>
 </body>
 </html>
