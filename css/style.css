@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-header { 
+header {
     display: flex;
     justify-content: space-between;
     flex-basis: 100%;
@@ -12,13 +12,13 @@ header {
     height: 110px;
     background-color: white;
     z-index: 1;
-    position:fixed; 
+    position:fixed;
     top: 0;
  }
-  
-.logocontainer { 
+
+.logoContainer {
     display: flex;
-    margin-left: 15px; 
+    margin-left: 15px;
     flex: 0 1 30%;
     height: 70px;
     align-items: center;
@@ -27,9 +27,18 @@ header {
 }
 
 .logo {
-    height: 50px; 
+    height: 50px;
 }
 
+/* .screen-reader-text:focus {
+    clip: auto !important;
+    display: block;
+    height: auto;
+    left: 5px;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* above all content
+} */
 
 nav {
     display: flex;
@@ -39,7 +48,7 @@ nav {
     width: 100%;
 }
 
-nav ul { 
+nav ul {
     border-top: 1px solid #d7d7d7;
     width: 96%;
     font-weight: 400;
@@ -53,7 +62,7 @@ nav li {
     text-transform: uppercase;
 }
 
-nav a { 
+nav a {
     text-decoration: none;
     color:#e2574c;
 }
@@ -63,19 +72,19 @@ nav a:hover {
     color: #b64036;
 }
 
-.cartcontainer  { 
+.cartContainer  {
     width:50px;
     flex-basis: 14%;
     display: flex;
     justify-content: left;
-    height: 73px; 
-}
-      
-.cart { 
-    width: 50px; 
+    height: 73px;
 }
 
-.container { 
+.cart {
+    width: 50px;
+}
+
+.container {
     margin-top:110px;
     position: relative;
 }
@@ -90,7 +99,7 @@ nav a:hover {
 
 
 
-.hero p { 
+.hero p {
     text-align: center;
     font-size: 17px;
     line-height: 2;
@@ -104,9 +113,9 @@ nav a:hover {
     font-weight: 500;
 }
 
-.hero h1 { 
+.hero h1 {
     text-align: center;
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     color: white;
     position: absolute;
     left: 17%;
@@ -116,49 +125,52 @@ nav a:hover {
 }
 
 
-.breakmobile { 
+.breakmobile {
     display: inline-block;
 }
 
 
-.tabletbreak { 
+.tabletbreak {
     display: none
 }
-.deskstopbreak { 
+.deskstopbreak {
     display: none;
 }
 
 
-.number-cart { 
+.number-cart {
     display: none;
 }
 
-    
-.hand-craftstyles { 
+.site-main[tabindex="-1"]:focus{
+    outline: 0;
+ }
+
+.hand-craftstyles {
     padding-bottom: 40px;
 }
 
-.hand-craftedinitalic { 
+.hand-craftedinitalic {
     font-style: italic;
 }
 
-.stylesinbold { 
+.stylesinbold {
      font-weight: bold;
 }
 
 
-.hand-craftstyles h1 { 
+.hand-craftstyles h1 {
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
     font-size: 2rem;
 }
 
-.hand-craftstyles p { 
+.hand-craftstyles p {
     text-align: center;
     line-height: 2;
     padding-bottom:20px;
-} 
+}
 
 .products-container {
     position: relative;
@@ -173,7 +185,7 @@ nav a:hover {
 }
 
 
-.product-categories { 
+.product-categories {
     display:flex;
     flex-direction: column;
     position: absolute;
@@ -183,14 +195,14 @@ nav a:hover {
     right:0;
 }
 
-.categories-row { 
+.categories-row {
     display: flex;
     flex-direction: row;
     flex: 1 0;
 }
 
 
-.categories-row-or-col { 
+.categories-row-or-col {
     display: flex;
     flex-direction: column;
     flex: 1 0;
@@ -206,7 +218,7 @@ nav a:hover {
     color: white;
     font-size: 22px;
     font-weight:450;
-    
+
     flex: 1 0;
 
     background-position: center;
@@ -215,11 +227,11 @@ nav a:hover {
 }
 
 
-.row-spacer { 
+.row-spacer {
    margin: 5px;
 }
 
-.column-spacer { 
+.column-spacer {
     margin: 5px;
 }
 
@@ -231,43 +243,43 @@ nav a:hover {
     background-image:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/mens-category.jpg);
 }
 
-.trends { 
+.trends {
     background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(../images/trends-category.jpg);
 }
 
-.glasses { 
+.glasses {
     background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(../images/glasses-category.jpg);
 }
 
-.sale { 
+.sale {
     background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/sale-category.jpg);
 }
-    
-.bags { 
-    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/bags-category.jpg);    
+
+.bags {
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/bags-category.jpg);
 }
 
-.women { 
+.women {
     background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/womens-category.jpg);
 }
 
-           
-.products-title { 
+
+.products-title {
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
     font-size: 2rem;
-} 
-           
-.mostlovedinitalic { 
+}
+
+.mostlovedinitalic {
     font-style: italic;
 }
-          
-.productsinbold { 
+
+.productsinbold {
     font-weight: bold;
  }
 
-.most-loved { 
+.most-loved {
     height: 450px;
     text-align: center;
     line-height: 2;
@@ -280,7 +292,7 @@ nav a:hover {
     width: 100%;
 }
 
-.productname { 
+.productname {
     color:#e2574c;
     font-size: 22px;
 }
@@ -290,15 +302,15 @@ nav a:hover {
     font-size: 10px;
     font-weight: bold;
     color:#969696
-}      
+}
 
-.price { 
+.price {
     font-weight: bold;
     font-size: 11px;
     color:#969696
 }
 
-.addcartbutton { 
+.addcartbutton {
     display: none;
     color: white;
     background: black;
@@ -315,40 +327,40 @@ nav a:hover {
 }
 
 
-.sign-up-container {  
+.sign-up-container {
     position: relative;
     background-image:linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../images/wave-bkgd.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position: bottom; 
+    background-position: bottom;
     color:white;
     padding-top:55px;
 }
 
-.signupinitalic { 
+.signupinitalic {
     font-style: italic;
 }
 
-.updatesinbold { 
+.updatesinbold {
     font-weight: bold;
 
 }
-.title h1 { 
-    text-align: center; 
-    font-size: 2rem; 
+.title h1 {
+    text-align: center;
+    font-size: 2rem;
 }
 
 .infosignup {
-    padding-top: 29px; 
+    padding-top: 29px;
 }
 
-.infosignup p { 
-    text-align: center; 
+.infosignup p {
+    text-align: center;
     line-height: 1.7;
     padding-bottom: 23px;
     font-size:17px;
 }
- 
+
 
 
 .submitform {
@@ -361,37 +373,36 @@ nav a:hover {
     padding-right:176px;
 }
 
-input { 
+input {
     border: none;
     padding: 10px;
     border-radius: 35px;
-    position: absolute;
+    position: relative;
     font-family: 'Raleway';
     font-weight: lighter;
-} 
+}
 
-.placeholderposition { 
+.placeholderposition {
     left: 74px;
 }
 
 
-    
-.subscribebutton { 
+.subscribebutton {
     color:white;
     border-radius:25px;
     background:#e2574c;
     position: relative;
     height: 27px;
-    top: 3px;
     z-index: 2;
-    left: 210px;
-    padding-top: 6.5px; 
+    top: -31px;
+    left: 298px;
+    padding-top: 6.5px;
     font-weight: bold;
 }
 
-footer { 
+footer {
     padding-top: 50px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
     padding-right: 30px;
     padding-left:30px;
     margin-top: 8px;
@@ -400,7 +411,7 @@ footer {
     line-height: 2;
 }
 
-.aloha-information { 
+.aloha-information {
     line-height: 1.5;
     text-align: center;
     margin-bottom: 20px;
@@ -408,9 +419,9 @@ footer {
     font-weight: bold;
 }
 
-   
-h6.contactandemail { 
-    line-height: 4; 
+
+h6.contactandemail {
+    line-height: 4;
 }
 
 .email {
@@ -421,18 +432,18 @@ h6.address {
     color: #969696;
 }
 
-.social ul { 
+.social ul {
     display: flex;
     justify-content: center;
     margin-left: 37px;
 
 }
-.social li { 
+.social li {
     list-style: none;
     display: inline-block;
     letter-spacing: 20px;
 }
 
-.socialname { 
+.socialname {
     display:none;
 }

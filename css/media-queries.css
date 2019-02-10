@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 552px) {
 
 body p { 
     font-size: 16px; 
@@ -18,11 +18,10 @@ body {
 } 
     
     
-.logocontainer { 
+.logoContainer { 
     justify-content: center;
 }
     
-
 nav {
     order: 2;
     align-self:  center;
@@ -37,7 +36,7 @@ nav li {
     padding: 5px;
 }
 
-.cartcontainer{
+.cartContainer{
     order: 3;
     height:86px;
 }
@@ -75,8 +74,6 @@ nav li {
     display: inline-block;
 }
    
-   
-
 .products-container:before {
     content:"";
     display: block;
@@ -90,7 +87,6 @@ nav li {
     flex-direction: row;
     flex: 1 0;
 }
-
 
     
 .product {
@@ -148,9 +144,12 @@ nav li {
 .submitform {
     padding-bottom: 94px;
 }
-        
+.subscribebutton { 
+    top: -1px;
+    left: 25px;
+}
  .placeholderposition { 
-    left: 160px;
+    left: 105px;
  }
 
   
@@ -192,7 +191,7 @@ header {
     font-size: 16px; 
 } 
 
-.logocontainer { 
+.logoContainer { 
     flex-basis: 2%;
     margin-left: 42px;
 }
@@ -219,7 +218,7 @@ nav ul {
     border-top: none;
 }
 
-.cartcontainer{
+.cartContainer{
     order: 3;
     height: 99px;
     flex-basis: 7%;
@@ -378,14 +377,13 @@ nav ul {
     
 }
 
-.placeholderposition { 
-    left: 421px;
-    width: 30%;
-}
+ .placeholderposition { 
+    left: 120px;
+} 
    
-.subscribebutton { 
-    left: 243px;
-}
+  .subscribebutton { 
+    left: 40px;
+}  
 
 .aloha-information { 
     line-height: 1.5;
