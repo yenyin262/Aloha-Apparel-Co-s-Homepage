@@ -24,14 +24,16 @@ The following technologies were applied in building and delivering the Aloha App
 
 ## Mobile View
 
-![aloha-mobile](https://user-images.githubusercontent.com/43800526/52541524-08814f00-2d4b-11e9-9a59-3d9ce6c8b8b6.png)
+![alohamobile](https://user-images.githubusercontent.com/43800526/52541795-e50bd380-2d4d-11e9-93c0-fcdc48330e25.png)
+
 
 ## Tablet View 
-![aloha-tablet](https://user-images.githubusercontent.com/43800526/52541588-abd26400-2d4b-11e9-8dda-0c0c9e4fe44f.png)
+
+![alohatablet](https://user-images.githubusercontent.com/43800526/52541799-e76e2d80-2d4d-11e9-909f-a2e8c8fcbf31.png)
 
 ## Desktop View 
 
-![alohadesktop](https://user-images.githubusercontent.com/43800526/52541656-7da15400-2d4c-11e9-85cb-58c539fe252d.png)
+![alohadesktop](https://user-images.githubusercontent.com/43800526/52541846-5e0b2b00-2d4e-11e9-851b-7e1d95f255e8.jpg)
 
 #  Personal Learning Developments: 
 1.	HTML, CSS and JAVASCRIPT/JQUERY are the building blocks to build an efficient website.
