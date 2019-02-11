@@ -20,6 +20,18 @@ The following technologies were applied in building and delivering the Aloha App
 1.	Git/Github
 1.	Command Line
 
+# SnapShots 
+
+## Mobile View
+
+![aloha-mobile](https://user-images.githubusercontent.com/43800526/52541524-08814f00-2d4b-11e9-9a59-3d9ce6c8b8b6.png)
+
+## Tablet View 
+![aloha-tablet](https://user-images.githubusercontent.com/43800526/52541588-abd26400-2d4b-11e9-8dda-0c0c9e4fe44f.png)
+
+## Desktop View 
+
+![alohadesktop](https://user-images.githubusercontent.com/43800526/52541656-7da15400-2d4c-11e9-85cb-58c539fe252d.png)
 
 #  Personal Learning Developments: 
 1.	HTML, CSS and JAVASCRIPT/JQUERY are the building blocks to build an efficient website.

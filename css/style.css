@@ -30,6 +30,11 @@ header {
     height: 50px;
 }
 
+.screen-reader-text{ 
+    position: relative;
+    right: 20%;
+    top: 20px;
+}
 /* .screen-reader-text:focus {
     clip: auto !important;
     display: block;
@@ -340,11 +345,12 @@ nav a:hover {
 
 .signupinitalic {
     font-style: italic;
+    text-shadow: 1.3px 1.3px #969696;
 }
 
 .updatesinbold {
     font-weight: bold;
-
+    text-shadow: 1.3px 1.3px #969696;
 }
 .title h1 {
     text-align: center;
@@ -353,6 +359,7 @@ nav a:hover {
 
 .infosignup {
     padding-top: 29px;
+    text-shadow: 1px 1px #969696;
 }
 
 .infosignup p {
