@@ -31,19 +31,21 @@ header {
 }
 
 .screen-reader-text{ 
-    position: relative;
-    right: 20%;
-    top: 20px;
+   clip: rect(1px, 1px, 1px, 1px);
+   position: absolute !important;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
 }
-/* .screen-reader-text:focus {
+.screen-reader-text:focus {
     clip: auto !important;
     display: block;
     height: auto;
     left: 5px;
     top: 5px;
     width: auto;
-    z-index: 100000; /* above all content
-} */
+    z-index: 100000; /* above all content*/
+}
 
 nav {
     display: flex;
@@ -101,6 +103,11 @@ nav a:hover {
     background-position: center, center 63px , center;
     background-size: cover, 159px, cover;
     height:424px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -111,23 +118,19 @@ nav a:hover {
     line-height: 2;
     color: white;
     text-transform: uppercase;
-    position: absolute;
-    left: 56%;
-    width: 165px;
-    margin-left: -107px;
-    top: 35%;
     font-weight: 500;
+    text-shadow: 1.3px 1.3px 6px #333;
 }
+
+
 
 .hero h1 {
     text-align: center;
     font-size: 2.5rem;
     color: white;
-    position: absolute;
-    left: 17%;
-    top: 46%;
     width: 271px;
     font-weight: 500;
+    text-shadow: 1.3px 1.3px 6px #333;
 }
 
 
@@ -199,6 +202,7 @@ nav a:hover {
     top:0;
     bottom:0;
     right:0;
+    text-shadow: 1.3px 1.3px 6px #333;
 }
 
 .categories-row {
@@ -345,12 +349,13 @@ nav a:hover {
 
 .signupinitalic {
     font-style: italic;
-    text-shadow: 1.3px 1.3px #969696;
+    text-shadow: 1.3px 1.3px 6px #333;
+ 
 }
 
 .updatesinbold {
     font-weight: bold;
-    text-shadow: 1.3px 1.3px #969696;
+    text-shadow: 1.3px 1.3px 6px #333;
 }
 .title h1 {
     text-align: center;
@@ -367,6 +372,7 @@ nav a:hover {
     line-height: 1.7;
     padding-bottom: 23px;
     font-size:17px;
+    padding: 0 10px 23px;
 }
 
 

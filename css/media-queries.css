@@ -1,417 +1,383 @@
-
 @media screen and (min-width: 552px) {
+  body p {
+    font-size: 16px;
+  }
 
-body p { 
-    font-size: 16px; 
-} 
-
-header { 
+  header {
     flex-wrap: nowrap;
-    height:96px;
+    height: 96px;
     width: 100%;
-}
-            
-     
-body {
-    font-size: 16px; 
+  }
+
+  body {
+    font-size: 16px;
     color: #2d2d2d;
-} 
-    
-    
-.logoContainer { 
+  }
+
+  .logoContainer {
     justify-content: center;
-}
-    
-nav {
+  }
+
+  nav {
     order: 2;
-    align-self:  center;
-    /* margin-left: -53px; */
-    /* margin-left: -77px; */
+    align-self: center;
     margin-left: -6px;
-}
+  }
 
-nav ul { 
+  nav ul {
     border-top: none;
-}
-    
-nav li { 
-    padding: 5px;
-}
+  }
 
-.cartContainer{
+  nav li {
+    padding: 5px;
+  }
+
+  .cartContainer {
     order: 3;
-    height:86px;
+    height: 86px;
     flex-basis: 20%;
-}
-.screen-reader-text{ 
+  }
+  .screen-reader-text {
     position: relative;
     right: 7%;
     top: 6px;
-}
-.container { 
- margin-top:96px;
-}
+  }
+  .container {
+    margin-top: 96px;
+  }
 
-
-.hero { 
+  .hero {
     background-size: cover, 148px, cover;
-    height:400px;
-}
-   
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-.hero p {
-    top: 37%;
-    left: 53%;
-}
-
-.hero h1 {
-    top: 49%;
+  .hero h1 {
     width: 426px;
-    left: 13%;
     font-size: 2.8rem;
-}
+    text-shadow: 1.3px 1.3px 6px #333;
+  }
 
-
-.breakmobile  { 
+  .breakmobile {
     display: none;
-}
+  }
 
-
-.tabletbreak {
+  .tabletbreak {
     display: inline-block;
-}
-   
-.products-container:before {
-    content:"";
+  }
+
+  .products-container:before {
+    content: "";
     display: block;
     padding-top: 50%;
-}
-    
+  }
 
-    
-.categories-row-or-col { 
+  .categories-row-or-col {
     display: flex;
     flex-direction: row;
     flex: 1 0;
-}
+  }
 
-    
-.product {
+  .product {
     font-size: 28px;
-}
+  }
 
-
-.products-title { 
+  .products-title {
     padding-top: 53px;
-    padding-bottom:0px;
+    padding-bottom: 0px;
     margin-bottom: 100px;
-} 
-        
+  }
 
-
-.carousel-cell { 
+  .carousel-cell {
     width: 50%;
-}
-        
-.productname { 
+  }
+
+  .productname {
     left: 50%;
     line-height: 1;
     width: 55%;
     margin-left: 65px;
     margin-top: 5px;
-}
+  }
 
-
-.categories { 
+  .categories {
     margin-top: -18px;
-}
+  }
 
-.price {    
+  .price {
     margin-top: 18px;
-}
+  }
 
-
-.sign-up-container {  
+  .sign-up-container {
     padding-top: 40px;
-}
-    
-.title h1 { 
-    font-size: 2.5rem; 
-    padding-bottom: 31px;
-}
-        
-.infosignup {
-    padding-top: 0px;
-}
+  }
 
-.infosignup p { 
-    padding-bottom: 21px; 
-}
-        
-.submitform {
+  .title h1 {
+    font-size: 2.5rem;
+    padding-bottom: 31px;
+  }
+
+  .infosignup {
+    padding-top: 0px;
+  }
+
+  .infosignup p {
+    padding: 0px 36px 21px;
+    width: 90%;
+  }
+
+  .submitform {
     padding-bottom: 94px;
-}
-.subscribebutton { 
+  }
+  .subscribebutton {
     top: -1px;
     left: 25px;
-}
- .placeholderposition { 
+  }
+  .placeholderposition {
     left: 105px;
- }
+  }
 
-  
-footer { 
+  footer {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-top: 7px;
-}
+  }
 
-.aloha-information { 
-    text-align:left;
-}
+  .aloha-information {
+    text-align: left;
+  }
 
-.social ul { 
+  .social ul {
     display: inline-block;
     text-align: center;
-}
+  }
 
-.social li { 
+  .social li {
     text-align: right;
     display: flex;
     align-items: center;
-}
-  
-.socialname { 
-display: inline-block;
-letter-spacing: normal;
-}
+  }
 
+  .socialname {
+    display: inline-block;
+    letter-spacing: normal;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
-header { 
+  header {
     flex-wrap: nowrap;
-}
-        
- body p {
-    font-size: 16px; 
-} 
+  }
 
-.logoContainer { 
+  body p {
+    font-size: 16px;
+  }
+
+  .logoContainer {
     flex-basis: 2%;
     margin-left: 42px;
-}
+  }
 
-.logo {
-    height: 66px; 
-}
-   
-.cart { 
+  .logo {
+    height: 66px;
+  }
+
+  .cart {
     width: 63px;
-}
-       
-nav {
+  }
+
+  nav {
     width: 60%;
     border: none;
     order: 2;
-    /* margin-left:-255px; */
     margin-left: -73px;
-}
+  }
 
-nav li { 
+  nav li {
     padding: 20px;
-}
+  }
 
-nav ul { 
+  nav ul {
     border-top: none;
-}
+  }
 
-.cartContainer{
+  .cartContainer {
     order: 3;
     height: 99px;
     flex-basis: 7%;
-}
+  }
 
-.number-cart { 
+  .number-cart {
     display: inline;
     background-color: red;
-    Top: 17px;
+    top: 17px;
     right: 85%;
-    width: 20px;
+    /* width: 20px; */
     border-radius: 50%;
-    height: 20px;
+    /* height: 20px; */
     position: relative;
     color: white;
-    padding: 7.5px;
+    padding: 2.5px 8px;
     text-align: center;
-}
+  }
 
-.hand-craftstyles {
+  .hand-craftstyles {
     height: 250px;
     position: relative;
     padding-bottom: 0px;
-}
+  }
 
-
-.hand-craftstyles p { 
+  .hand-craftstyles p {
     position: absolute;
-    top:49%; 
-    left:50%;
-    width:600px;
+    top: 49%;
+    left: 50%;
+    width: 600px;
     margin-left: -300px;
-} 
+  }
 
- .tabletbreak {
-     display: none;
- }
-
-.deskstopbreak { 
-    display: inline;
-}
-
-.breakmobile  { 
+  .tabletbreak {
     display: none;
-}
+  }
 
+  .deskstopbreak {
+    display: inline;
+  }
 
-.hero {  
+  .breakmobile {
+    display: none;
+  }
+
+  .hero {
     height: 531px;
     background-size: cover, 242px, contain;
     background-position: center, center 62px, center;
-}
+  }
 
-.hero p { 
-    top: 39%;
-    width: 175px;
-    left: 52%;
+  .hero p {
     font-size: 19px;
-}
+    text-shadow: 1.3px 1.3px 6px #333;
+  }
 
-
-.hero h1 {
-    top: 48%;
+  .hero h1 {
     width: 834px;
-    left: 16%;
     font-size: 3.7rem;
-}
+    text-shadow: 1.3px 1.3px 6px #333;
+  }
 
-.products-container {
+  .products-container {
     position: relative;
     width: 100%;
     height: auto;
-}
-    
+  }
 
-    
-.product-categories { 
-    display:flex;
+  .product-categories {
+    display: flex;
     flex-direction: column;
     position: absolute;
-    left:0;
-    top:0;
-    bottom:0;
-    right:0;
-}
-    
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
 
-.product {
+  .product {
     font-size: 35px;
-}
+  }
 
-.categories {
+  .categories {
     padding-top: 12px;
-}
-.row-spacer { 
+  }
+  .row-spacer {
     margin: 3px;
-}
-    
-.column-spacer { 
+  }
+
+  .column-spacer {
     margin: 3px;
-}
-    
-.rotate-spacer {
+  }
+
+  .rotate-spacer {
     margin: 3px;
-}
-    
-.carousel-cell {
+  }
+
+  .carousel-cell {
     width: 25%;
     height: 540px;
-}
+  }
 
-.categories { 
+  .categories {
     font-size: 12px;
     margin-top: -25px;
-}
+  }
 
-.most-loved { 
+  .most-loved {
     height: 540px;
     margin-top: 15px;
-}
+  }
 
-
-
-.productname { 
+  .productname {
     width: 250px;
     margin-left: 30px;
     text-align: center;
-}
+  }
 
-.price { 
+  .price {
     font-size: 12px;
-}
+  }
 
-.addcartbutton { 
+  .addcartbutton {
     display: inline;
     margin-top: 21px;
-}
+  }
 
-
-.sign-up-container {  
+  .sign-up-container {
     background-size: cover;
-    background-position: bottom; 
-    color:white;
+    background-position: bottom;
+    color: white;
     padding-top: 49px;
-}
+  }
 
-
-
-.title h1 { 
-    text-align: center; 
-    font-size: 2rem; 
+  .title h1 {
+    text-align: center;
+    font-size: 2rem;
     padding-bottom: 28px;
-}
-    
-.submitform {
-    padding-bottom:57px;
-    
-}
+  }
 
- .placeholderposition { 
+  .submitform {
+    padding-bottom: 57px;
+  }
+
+  .placeholderposition {
     left: 120px;
-} 
-   
-  .subscribebutton { 
+  }
+  .infosignup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .infosignup p {
+    width: 51%;
+  }
+
+  .subscribebutton {
     left: 40px;
-}  
+  }
 
-.aloha-information { 
+  .aloha-information {
     line-height: 1.5;
-}
-   
-h6.contactandemail { 
-    line-height: 4; 
-}
+  }
 
-h6.address {
+  h6.contactandemail {
+    line-height: 4;
+  }
+
+  h6.address {
     color: #969696;
-}
+  }
 
-
-.social li { 
+  .social li {
     list-style: none;
-}
-  
-
-
+  }
 }
