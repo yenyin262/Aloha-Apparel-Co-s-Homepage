@@ -61,14 +61,6 @@
     text-shadow: 1.3px 1.3px 6px #333;
   }
 
-  .breakmobile {
-    display: none;
-  }
-
-  .tabletbreak {
-    display: inline-block;
-  }
-
   .products-container:before {
     content: "";
     display: block;
@@ -125,7 +117,7 @@
   }
 
   .infosignup p {
-    padding: 0px 36px 21px;
+    padding: 0px 28px 21px;
     width: 90%;
   }
 
@@ -234,18 +226,6 @@
     left: 50%;
     width: 600px;
     margin-left: -300px;
-  }
-
-  .tabletbreak {
-    display: none;
-  }
-
-  .deskstopbreak {
-    display: inline;
-  }
-
-  .breakmobile {
-    display: none;
   }
 
   .hero {
